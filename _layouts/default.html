@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+   <title>{{ page.title }} &rarr; {{ page.top }}</title>
+
+   <meta name="author" content="Colin Blower" />
+
+   <link rel="start" href="/" />
+
+{% if page.keywords %}
+<meta name="keywords" content="{{ page.keywords }}">
+{% endif %}
+
+</head>
+<body id="{{ page.section }}">
+    <div id="nav">
+        <div id="pic">
+            <a href="/" title="Home"><img alt="RAWR" src="/logo.png" /></a>
+        </div>
+        <ul>
+            <li><a href="/projects">Projects</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="https://github.com/lanzaa">Github</a></li>
+            <!-- TODO more links -->
+        </ul>
+    </div>
+<div id="site">
+
+  {{ content }}
+  
+</div>
+</body>
+</html>
