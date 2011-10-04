@@ -1,9 +1,6 @@
 ---
 layout: default
 title: Home
-top: Colin Blower
-
-section: Home
 ---
 
 Welcome

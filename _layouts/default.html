@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-   <title>{{ page.title }} &rarr; {{ page.top }}</title>
+   <title>{{ page.title }}</title>
 
    <meta name="author" content="Colin Blower" />
 
@@ -14,14 +14,15 @@
 {% endif %}
 
 </head>
-<body id="{{ page.section }}">
+<body>
     <div id="nav">
         <div id="pic">
             <a href="/" title="Home"><img alt="RAWR" src="/logo.png" /></a>
         </div>
         <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about.html">About</a></li>
             <li><a href="/projects">Projects</a></li>
-            <li><a href="/about">About</a></li>
             <li><a href="https://github.com/lanzaa">Github</a></li>
             <!-- TODO more links -->
         </ul>
