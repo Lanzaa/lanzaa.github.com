@@ -1,0 +1,35 @@
+#container {
+    margin: 10px auto;
+}
+
+#nav {
+    position: fixed;
+    left: 10px;
+    top: 10px;
+    width: 155px; /* width of image +10px */
+    border-bottom: 1px solid gray;
+}
+
+#me {
+    text-align: center;
+    font-family: Inconsolata, Consolas, Courier, Andale Mono, monospace;
+}
+
+#me #first {
+    font-weight: bold;
+    font-size: 1.4em; /* len'Lanzaa' + 1 / len'Colin' = 7/5 = 1.4 */
+    color: #708090; /* slate gray */
+}
+
+#me #nick {
+    color: #4682b4; /* steel blue */
+}
+
+#me a {
+    text-decoration: none;
+}
+
+#content {
+    margin-left: 165px; /* width of image +20px */
+}
+

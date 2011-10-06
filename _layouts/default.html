@@ -9,16 +9,27 @@
 
    <link rel="start" href="/" />
 
-{% if page.keywords %}
-<meta name="keywords" content="{{ page.keywords }}">
-{% endif %}
+   <link rel="stylesheet" href="/css/default.css" />
 
+    {% if page.keywords %}
+    <meta name="keywords" content="{{ page.keywords }}">
+    {% endif %}
 </head>
 <body>
+    <div id="container">
     <div id="nav">
         <div id="pic">
             <a href="/" title="Home"><img alt="RAWR" src="/logo.png" /></a>
         </div>
+        <div id="me">
+            <a href="/">
+                <span id="first">Colin</span>
+                <br />
+                <span id="nick">(Lanzaa)</span>
+            </a>
+        </div>
+        
+        <div id="sections">
         <ul>
             <li><a href="/">Home</a></li>
             <li><a href="/about.html">About</a></li>
@@ -27,10 +38,10 @@
             <!-- TODO more links -->
         </ul>
     </div>
-<div id="site">
-
-  {{ content }}
-  
+    </div>
+    <div id="content">
+        {{ content }}
+    </div>
 </div>
 </body>
 </html>
